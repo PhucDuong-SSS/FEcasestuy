@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./assets/css/nomarlize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/font/fontawesome-free-5.14.0-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Tải ứng dụng Star Shop
+                            <div class="header__qr">
+                                <img src="assets/css/img/qr_code.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="assets/css/img/google_play.png" alt="google_play " class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="assets/css/img/app_store.png" alt="app_store " class="header__qr-download-img">
+                                    </a>
+                                    
+                                    
+                                </div>
+    
+                            </div>
+    
+                        </li>
+                        <li class="header__navbar-item">
+                             <span class="header__navbar-title--no-poiter">Chăm sóc khách hàng</span>                            
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">                       
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fas fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"><a class="header__auth-link" href="register.html">Đăng ký</a></li>
+                        <li class="header__navbar-item header__navbar-item--strong"><a class="header__auth-link" href="login.html">Đăng nhập</a></li>
+                        <!-- <li class="header__navbar-item header__navbar-user">
+                           <img src="https://lh4.googleusercontent.com/-xDBlaIfhj0U/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmli_EEjbyaqJPrPQKBIo_DxZYayQ/s88-c-k-c0x00ffffff-no-rj-mo/photo.jpg" alt="" class="header__navbar-user-img">     
+                           <span class="header__navbar-user-name">Phúc Duong</span>
+                           <ul class="header__navbar-user-menu">
+                               <li class="header__navbar-user-item">
+                                   <a href="">Tài khoản của tôi</a>
+                               </li>
+                               <li class="header__navbar-user-item">
+                                   <a href="">Địa chỉ của tôi</a>
+                               </li>
+                               <li class="header__navbar-user-item">
+                                   <a href="">Đơn mua</a>
+                               </li>
+                               <li class="header__navbar-user-item header__navbar-user--separate">
+                                   <a href="">Đăng xuất</a>
+                               </li>
+                           </ul>
+                        </li> -->
+                    </ul>
+                </nav>
+                <!-- coi la mot block -->
+
+                <!-- navbar mobile -->
+                    
+                <div class="header-with-search"> 
+                  
+                        <input type="checkbox" hidden id="check-icon-bar" class="header__mobi-check-bar">
+                        <label class="nav__mobi-overlay" for="check-icon-bar"></label>
+                         
+                        <nav class="nav__mobi">
+                            <lable class="nav__mobi-btn-close " for="check-icon-bar">
+                                <i class="fas fa-times "></i>
+                            </lable>                        
+                            <ul class="nav__mobi-list">
+                                <li>
+                                    <a href="index.html" class="nav__mobi-link">Điện thoại</a>
+                                </li>
+                                <li>
+                                    <a href="maytinhbang.html" class="nav__mobi-link">Máy tính bảng</a>
+                                </li>
+                                <li>
+                                    <a href="oplung.html" class="nav__mobi-link">Ốp lưng</a>
+                                </li>
+                                <li>
+                                    <a href="register.html" class="nav__mobi-link">Đăng nhập</a>
+                                </li>
+                                <li>
+                                    <a href="login.html" class="nav__mobi-link">Đăng xuất </a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav__mobi-link">Trợ giúp </a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav__mobi-link">Cài đặt </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <label  for="check-icon-bar" class="nav__mobi-icon">
+                            <i class="fas fa-bars nav__mobi-icon-bar "></i>
+                        </label>                    
+                        <!-- serach mobile -->                     
+                        
+                    <div class="header__logo hide-on-tablet">
+                        <a href="/" class="header__logo-link">                           
+                            <div class ="container__logo hide-on-tablet">
+                                <svg  width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                                <path class="star" d="M246.573,89.84l42.511,126.463l137.566,0l-111.293,78.158l42.51,126.462l-111.294,-78.158l-111.293,78.158l42.51,-126.462l-111.293,-78.158l137.566,0l42.51,-126.463Z"/>
+                                </svg>
+                            </div>                                            
+                        </a>
+                    </div> 
+                    <input type="checkbox" hidden class="header__mobi-checkbox" id="checkbox-search">
+                    <label  for="checkbox-search" class="nav__mobi-icon hide-on-tablet">
+                        <i class="fas fa-search nav__mobi-icon-bar "></i>
+                    </label>  
+                    <!-- <lable for="checkbox-search" class="header__mobi-search">
+                        <i class="fa fa-search header__mobi-search-icon"></i>
+                    </lable> -->
+                    
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">Iphone X </a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">Ốp lưng note</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">Nokia</a>
+                                    </li>
+                                </ul>
+                            </div>                            
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Điện thoại</span>
+                            <i class="fas fa-angle-down header__search-select-icon"></i>
+                            <ul class="header__search-option">
+                               <li class="header__search-option-item header__search-option-item--active">
+                                   <span>Điện thoại</span>
+                                   <i class="fas fa-check"></i>
+                               </li> 
+                               <li class="header__search-option-item">
+                                   <span>Máy tính bảng</span>
+                                   <i class="fas fa-check"></i>
+                               </li> 
+                               <li class="header__search-option-item">
+                                   <span>Vỏ bao ốp lưng</span>
+                                   <i class="fas fa-check"></i>
+                               </li> 
+                            </ul>
+
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header_cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- Have nocart: header__cart-list--no-cart-->
+                            <div class="header__cart-list ">
+                                <img src="assets/css/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <!-- cart item -->
+                                        <img src="https://cf.shopee.vn/file/fd8f3a719f146a99d1262296222cea8e_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Samsung Galaxy Z co aaa gia cao nhat thi truowng hien nay dang duoc ban tai sieu thi dien may gan quang truong</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span   span class="header__cart-item-mutiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">
+                                                Phân loại hàng: Đồng ánh kim
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <!-- cart item -->
+                                        <img src="https://cf.shopee.vn/file/fd8f3a719f146a99d1262296222cea8e_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Samsung Galaxy Z</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span   span class="header__cart-item-mutiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">
+                                                Phân loại hàng: Đồng ánh kim
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <!-- cart item -->
+                                        <img src="https://cf.shopee.vn/file/fd8f3a719f146a99d1262296222cea8e_tn" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Samsung Galaxy Z</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span   span class="header__cart-item-mutiply">x</span>
+                                                    <span class="header__cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-discription">
+                                                Phân loại hàng: Đồng ánh kim
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="header__cart-view-cart btn btn-primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>                  
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            <ul class="header__minibar">
+                <li class="header__minibar-item"><a href="#" class="header__minibar-link">Liên quan</a></li>
+                <li class="header__minibar-item header__minibar-item-active"><a href="#" class="header__minibar-link">Mới nhất</a></li>
+                <li class="header__minibar-item"><a href="#" class="header__minibar-link">Bán chạy</a></li>
+                <li class="header__minibar-item"><a href="#" class="header__minibar-link">Giá</a></li>
+            </ul>
+            
+        </header>
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item-active">
+                                    <a href="index.html" class="category-item__link category-item__link-active">Điện thoại</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="maytinhbang.html" class="category-item__link">Máy tính bảng</a>
+                                </li>
+                                <li class="category-item ">
+                                    <a href="oplung.html" class="category-item__link">Vỏ bao và ốp lưng</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="banner-wrap">
+                            <div class="row">
+                                <div class="col l-12 m-12 c-12">
+                                    <a href="#" class="banner-wrap__img">
+                                        <div id="banner-img" class="banner__img-main-img " style="background-image: url('https://cdn.tgdd.vn/2020/09/banner/iphone-hotsale-800-300-800x300-3.png');">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__lable">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn-primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input-lable">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <!-- List option -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp Đến Cao</a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao Đến Thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/14                                    
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn-disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- Product items -->
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url('https://cf.shopee.vn/file/fd2389a66b644759ccbb1f87ff2cbcdc_tn');">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện Thoại Vsmart Star 4 3GB/32GB - Hàng Chính Hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">2.290.000đ</span>
+                                            <span class="home-product-item__price-current">1.953.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Vin</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">10%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/992f8b2599e90b35acd0f07308cc6db7_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện Thoại OPPO F9 chính hãng 64GB/6GB - Hàng Chính Hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old"></span>
+                                            <span class="home-product-item__price-current">2.490.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">56 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">T.p Hồ Chí Minh</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">24%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/e59f14dad323bd4826cdab66d36144e3_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện thoại Apple iPhone 11 Pro Max 64GB VNA - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">28.900.000đ</span>
+                                            <span class="home-product-item__price-current">27.490.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">13 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Hà Nội</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">5%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/cc8b347735a3b79123d97bb54b8f237a_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện thoại Apple iPhone 11 Pro Max 64GB bản LL Quốc Tế - Hàng nhập khẩu</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">28.990.000đ</span>
+                                            <span class="home-product-item__price-current">26.450.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">45 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Hà Nội</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">9%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/0d8c5e7723b99f5f5d0fbd21a91c97e5_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện thoại Apple iPhone 11 Pro 64GB Quốc tế LL mới 100% Nhập Khẩu</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">27.290.000đ</span>
+                                            <span class="home-product-item__price-current">29.953.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">121 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Hà Nội</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">10%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/06582dbe1ecf3a05efadbc2c3d45170c_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện thoại di động Samsung Galaxy Note 20 (8G/ 256Gb)- Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old"></span>
+                                            <span class="home-product-item__price-current">23.990.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">40 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Hồ Chí Minh</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <!-- <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div> -->
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">0%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/f839685656b68b5c2bdbcd8284dc05e3_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện Thoại Apple iPhone XS MAX 256GB - Bản quốc tế</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old"></span>
+                                            <span class="home-product-item__price-current">21.890.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">8 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Hà Nội</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">10%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/e6235f83734a6a318ba4a04415677d8e_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện thoại Apple Iphone 11 4GB 128GB - Hàng Chính Hãng VN|A</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">23.290.000đ</span>
+                                            <span class="home-product-item__price-current">20.100.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">199 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Hồ Chí Minh</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">10%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/ed48c11d24cc47d2c86f6816c2c59909_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện thoại di động Samsung Galaxy S20 Plus 8G/128G - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old"></span>
+                                            <span class="home-product-item__price-current">19.953.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Hà Nội</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">10%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                <div class="col l-2-4 m-4 c-6 " >
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/82d11da5a7eff981853e608f4de7019e_tn);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Điện Thoại iPhone 11 64GB - Nhập khẩu</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old"></span>
+                                            <span class="home-product-item__price-current">19.353.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like-liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill far fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="home-product-item__star-gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">88 Đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__branch">Vin</span>
+                                            <span class="home-product-item__origin-name">Việt Nam</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sell-off">
+                                            <span class="home-product-item__sell-off-percent">10%</span>
+                                            <span class="home-product-item__sell-off-lable">GIẢM</span>
+                                        </div>
+                                    </a>                                                                     
+                                </div>
+                                
+                            
+                            </div>
+                        </div>  
+                        <ul class="pagination pagination-wrap">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__link-icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item__link-current">
+                                <a href="#" class="pagination-item__link ">
+                                    1
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    2
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    3
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    4
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    5
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <span class="pagination-item__link">...</span>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__link-icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">VỀ CHÚNG TÔI</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Giới thiệu StartShop.vn</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Giới thiệu StartMall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Quy chế hoạt động</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">DÀNH CHO NGƯỜI MUA</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Giải quyết khiếu nại</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Chính sách đổi trả</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Chăm sóc khách hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Nạp tiền điện thoại</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">DÀNH CHO NGƯỜI BÁN</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Mở shop trên StarShop</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Quy định đối với người bán</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Chính sách bán hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-item__link">Hệ thống tiêu chí kiểm duyệt</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col l-4-8">
+                        <h3 class="footer__heading">ĐĂNG KÝ NHẬN BẢN TIN ƯU ĐÃI KHỦNG TỪ STAR SHOP</h3>
+                        <div class="footer__form">
+                            <input type="text" placeholder="Email của bạn là" class="footer__form-email">                            
+                            <button class="footer__form-btn btn btn-primary">Đăng ký</button>
+                        </div>
+                    </div>                   
+                </div>
+            </div>  
+
+        </footer>
+        
+    </div>
+    <!-- Modal layout -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+         -->
+            <!-- register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__heading">Đăng ký</h3>
+                    <span class="auth_form__switch-btn">Đăng nhập</span>
+                </div>
+                <div class="auth-form__form">
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                    </div>
+                </div>
+                <div class="auth-form__aside">
+                    <p class="auth-form__policy-text">
+                        Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                        <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a>&
+                        <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                    </p>
+                </div>
+                <div class="auth-form__controls">
+                    <button class="btn auth-form__controls-back btn--nomal">TRỞ LẠI</button>
+                    <button class="btn btn-primary">ĐĂNG KÝ</button>
+                </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="btn auth-form__socials--facebook btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với facebook</span>                        
+                    </a>
+                    <a href="" class="auth-form__socials--google auth-form__socials-icon btn btn--size-s btn--with-icon">
+                        <i class="fab fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>                         
+                    </a>
+                </div>
+            </div> -->
+            <!-- login` orm -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                <div class="auth-form__header">
+                    <h3 class="auth-form__heading">Đăng nhập</h3>
+                    <span class="auth_form__switch-btn">Đăng ký</span>
+                </div>
+                <div class="auth-form__form">
+                    <div class="auth-form__group">
+                        <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                    </div>
+                    <div class="auth-form__group">
+                        <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+                    </div>                    
+                </div>
+                <div class="auth-form__aside">
+                    <div class="auth-form__help">
+                        <a href="" class="auth-form__help-link auth-form__help-fogot">Quên mật khẩu</a>
+                        <span class="auth-form__help-saparate"></span>
+                        <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                    </div>
+                </div>
+                <div class="auth-form__controls">
+                    <button class="btn auth-form__controls-back btn--nomal">TRỞ LẠI</button>
+                    <button class="btn btn-primary">ĐĂNG NHẬP</button>
+                </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="btn auth-form__socials--facebook btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với facebook</span>                        
+                    </a>
+                    <a href="" class="auth-form__socials--google auth-form__socials-icon btn btn--size-s btn--with-icon">
+                        <i class="fab fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>                         
+                    </a>
+                </div>
+            </div> -->
+            
+        </div>
+    </div>
+ <script src="./assets/js/fomat.js"></script>   
+</body>
+</html>
