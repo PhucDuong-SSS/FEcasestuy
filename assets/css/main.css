@@ -459,7 +459,11 @@
 }
 
 .auth-form__controls-back {
-    margin-right: 8px;
+    margin-right: 8px;    
+}
+
+.auth-form__controls-link {
+    text-decoration: none;
 }
 
 .auth-form__socials {

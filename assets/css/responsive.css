@@ -136,4 +136,7 @@ padding-right:0 ;
 .auth-form__help {
   justify-content: space-between;
 }
+.footer__mobi {
+  padding: 0 26px;
+}
 }
